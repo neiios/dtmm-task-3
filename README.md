@@ -6,7 +6,7 @@
 # have poetry installed 
 
 # install dependencies
-poetry init
+poetry install --no-root
 
 # enter shell with dependencies installed
 poetry shell
