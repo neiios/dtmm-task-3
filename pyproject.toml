@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dtmm-task-3"
+version = "69.0.0"
+description = "Įvadas į duomenų tyrybą ir mašininį mokymąsi. 3 užduotis: Klasterizavimo algoritmų analizė"
+authors = ["Igor <egor@sgf.lt>"]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<=3.12"
+pandas = "^2.1.2"
+numpy = "^1.26.1"
+seaborn = "^0.13.0"
+matplotlib = "^3.8.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
